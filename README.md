@@ -54,41 +54,46 @@ InvestaX/
 ```bash
 git clone https://github.com/19salonitomar/InvestaX.git
 cd InvestaX
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 🔹 Frontend
+```bash
 cd frontend
 npm install
+```
 
 🔹 Backend
+```bash
 cd backend
 npm install
+```
 
-3️⃣ Setup Environment Variables
+### 3️⃣ Setup Environment Variables
 Create a .env file inside backend/ with:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
-4️⃣ Run the App
-Backend:
+### 4️⃣ Run the App
+- Backend:
 cd backend
 npm start
 
-Frontend:
+- Frontend:
 cd frontend
 npm start
 
 👉 App will be live at: http://localhost:3000/
 
-🧪 Testing with Jest
+### 🧪 Testing with Jest
 Run test cases:
 
 npm test
 ✅ Covers unit + integration tests
 ✅ Ensures API and UI reliability
 
-🌍 Deployment
+### 🌍 Deployment
 Deployed on AWS:
 
 EC2 → Backend (Node.js + Express)
@@ -100,7 +105,7 @@ MongoDB Atlas → Database
 🔗 Live Demo: Click Here
 
 
-🤝 Contributing
+### 🤝 Contributing
 Fork the repository
 
 Create a feature branch (feature/your-feature)
@@ -109,13 +114,13 @@ Commit your changes
 
 Push & create a PR
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License 📄
 
-👩‍💻 Author
-👤 Saloni Tomar
-🔗 GitHub | LinkedIn
+- 👩‍💻 Author
+- 👤 Saloni Tomar
+- 🔗 GitHub | LinkedIn
 
-✨ InvestaX – A MERN-powered platform shaping the future of trading ✨
+### ✨ InvestaX – A MERN-powered platform shaping the future of trading ✨
 
 
