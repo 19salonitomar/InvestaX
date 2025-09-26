@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -10,12 +11,15 @@ function Hero() {
         />
         <h1 className="mt-3">Invest With InvestaX</h1>
         <h5> Powering the Next Era of Trading.....</h5>
+        <Link to="/signUp" className="text-white text-decoration-none">
         <button
           className="p-2 btn btn-primary fs-5 mb-5 mt-3"
           style={{ width: "14%", margin: "0 auto" }}
         >
-          Signup Now
+          SignUp Now
         </button>
+        </Link>
+
       </div>
     </div>
   );
